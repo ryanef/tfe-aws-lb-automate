@@ -1,7 +1,7 @@
 locals {
   lbs = {
-    ecs_one = {
-      name = "ecs_one_lb"
+    ecsLoadBalancer = {
+      name = "ecsLoadBalancer"
       environment = "dev"
       target_type = "ip"
       vpc_name = "TFE_CONTROLLER"

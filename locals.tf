@@ -5,6 +5,6 @@ locals {
       environment = "dev"
       target_type = "ip"
       vpc_name = "TFE_CONTROLLER"
-     }
   }
+}
 }

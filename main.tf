@@ -1,6 +1,6 @@
 module "loadbalancer" {
   source  = "ryanef/loadbalancer/aws"
-  version = "1.0.7"
+  version = "1.1.0"
 
   for_each = local.lbs
 

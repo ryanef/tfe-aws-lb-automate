@@ -8,6 +8,6 @@ module "loadbalancer" {
   environment = each.value.environment
   target_type = each.value.target_type
   vpc_name = each.value.vpc_name
-  vpc_id = each.value.vpc_id
+
 }
 

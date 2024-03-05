@@ -1,7 +1,7 @@
 locals {
   lbs = {
     ecs_one = {
-      name = "ecs_lb"
+      name = "ecs_one_lb"
       environment = "dev"
       target_type = "ip"
       vpc_name = "TFE_CONTROLLER"
